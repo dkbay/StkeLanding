@@ -37,8 +37,8 @@ header{
 	@include gradient($gradient-color-1, $gradient-color-2);
 	position: relative;
     z-index: 1;
-	webkit-clip-path: polygon(0 0, 1600px 0, 1600px 75%, 0 100%);
-    clip-path: polygon(0 0, 1600px 0, 1600px 75%, 0 100%);
+	webkit-clip-path: polygon(0 0, 100vw 0, 100vw 75%, 0 100%);
+    clip-path: polygon(0 0, 100vw 0, 100vw 75%, 0 100%);
 }
 
 header, header>div{
@@ -50,16 +50,16 @@ header, header>div{
 }
 
 section{
-	webkit-clip-path: polygon(0 0, 1600px 0, 1600px 75%, 0 100%);
-    clip-path: polygon(0 0, 1600px 0, 1600px 125%, 0 100%);
+	webkit-clip-path: polygon(0 0, 100vw 0, 100vw 75%, 0 100%);
+    clip-path: polygon(0 0, 100vw 0, 100vw 125%, 0 100%);
 
 }
 
 #features{
 	position: relative;
     z-index: 1;
-    webkit-clip-path: polygon(0 0, 1600px 0, 1600px 55%, 0 100%);
-    clip-path: polygon(0 0, 1600px 0, 1600px 55%, 0 100%);
+    webkit-clip-path: polygon(0 0, 100vw 0, 100vw 55%, 0 100%);
+    clip-path: polygon(0 0, 100vw 0, 100vw 55%, 0 100%);
     padding-top: 5vh;
     padding-bottom: 30vh;
     background-color: white;
@@ -71,8 +71,8 @@ section{
     padding-bottom: 40vh;
     z-index: -1;
     margin-top: -30vh;
-    webkit-clip-path: polygon(0 0, 1600px 0, 1600px 55%, 0 100%);
-    clip-path: polygon(0 0, 1600px 0, 1600px 65%, 0 100%);
+    webkit-clip-path: polygon(0 0, 100vw 0, 100vw 55%, 0 100%);
+    clip-path: polygon(0 0, 100vw 0, 100vw 65%, 0 100%);
 }
 
 .btn-default{
