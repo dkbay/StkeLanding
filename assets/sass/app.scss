@@ -11,7 +11,7 @@ $gradient-color-2: rgba(23,140,124,1);
 	background: -o-linear-gradient(left, $color-1 0%, $color-2 100%);
 	background: -ms-linear-gradient(left, $color-1 0%, $color-2 100%);
 	background: linear-gradient(to right, $color-1 0%, $color-2 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-1', endColorstr='$color-2', GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color-1}', endColorstr='#{$color-2}', GradientType=1 );
 }
 
 .navbar-collapse:before{
