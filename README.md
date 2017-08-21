@@ -24,7 +24,7 @@ When pushing to production, make sure to use the -p flag: `./node_modules/.bin/w
 
 # Build "script"
 
-`npm install`
-`bower install`
-`./node_modules/.bin/webpack`
+`npm install`  
+`bower install`  
+`./node_modules/.bin/webpack`  
 `./node_modules/.bin/webpack -p`
