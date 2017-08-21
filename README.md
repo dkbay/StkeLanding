@@ -21,3 +21,10 @@ To compile the assets, simply run `./node_modules/.bin/webpack`.
 # Pushing to production
 
 When pushing to production, make sure to use the -p flag: `./node_modules/.bin/webpack -p`. This will minify the dist files.
+
+# Build "script"
+
+`npm install`
+`bower install`
+`./node_modules/.bin/webpack`
+`./node_modules/.bin/webpack -p`
