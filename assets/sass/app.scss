@@ -92,6 +92,19 @@ a{
 	color:#007bff;
 }
 
+footer {
+	margin-bottom: 60px;
+
+	ul li {
+		font-size: 1.14em;
+	}
+
+	ul.footer-links {
+		list-style-type: none;
+		-webkit-padding-start: 10px;
+	}
+}
+
 @media screen and (max-width: 1200px) {
     #heroimg{
     	margin-top:50px;
