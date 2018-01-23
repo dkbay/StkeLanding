@@ -46,7 +46,7 @@ header, header>div{
 	box-shadow: #6b6b6b 0px 0px 15px 0px;
 }
 
-#about::before, #features::before, #about::after, #features::after, footer::before{
+#about::before, #features::before, #FAQ::before, #about::after, #features::after,#FAQ::after, footer::before{
     background: inherit;
     content: '';
     display: block;
@@ -57,13 +57,13 @@ header, header>div{
     z-index: 1;
 }
 
-#about::before, #features::before, footer::before{
+#about::before, #features::before, #FAQ::before,  footer::before{
     top: 0;
     transform: skewY(-4deg);
     transform-origin: 0 0;
 }
 
-#about::after{
+#about::after, #FAQ::after {
     top: 0;
     transform: skewY(-4deg);
     transform-origin: 100% 0;
@@ -73,8 +73,12 @@ header, header>div{
     background-color: white;
 }
 
-#about{
+#about, footer{
 	background-color:whitesmoke;
+}
+
+#FAQ{
+    margin: 100px 0;
 }
 
 .btn-default{
@@ -91,11 +95,16 @@ header, header>div{
 }
 
 a{
+	color:#219d8a;
+}
+
+a:hover, a:focus{
 	color:#007bff;
+	text-decoration: none;
 }
 
 footer {
-	margin-bottom: 60px;
+	padding-bottom: 60px;
 
 	ul li {
 		font-size: 1.14em;
